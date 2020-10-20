@@ -1,6 +1,6 @@
 {
   "name": "vue3-image-box",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A simple image lightbox component for vue3.0",
   "repository": {
     "type": "git",

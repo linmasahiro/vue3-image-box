@@ -15,86 +15,86 @@ export default defineComponent({
     const images = [
       {
         thumb:
-          "https://i-thethao.vnecdn.net/2018/05/27/000-15D8R8-1527377973_680x0.jpg",
+          "https://nihonnleo.appspot.com/f/3/",
         src:
-          "https://i-thethao.vnecdn.net/2018/05/27/000-15D8R8-1527377973_680x0.jpg",
+          "https://nihonnleo.appspot.com/f/3/",
         caption: "1",
       },
       {
         thumb:
-          "https://s3-us-west-1.amazonaws.com/powr/defaults/image-slider2.jpg",
+          "https://nihonnleo.appspot.com/f/4/",
         src:
-          "https://s3-us-west-1.amazonaws.com/powr/defaults/image-slider2.jpg",
+          "https://nihonnleo.appspot.com/f/4/",
         caption: "2",
       },
       {
         thumb:
-          "https://i-kinhdoanh.vnecdn.net/2018/06/18/1-1529296929_680x0.jpg",
+          "https://nihonnleo.appspot.com/f/5/",
         src:
-          "https://i-kinhdoanh.vnecdn.net/2018/06/18/1-1529296929_680x0.jpg",
+          "https://nihonnleo.appspot.com/f/5/",
         caption: "3",
       },
       {
         thumb:
-          "http://127.0.0.1:4567/lin-test/public/5oQeGbjGqw2njkADPBl2FOx256X9NqiRkgY1AXNE.jpeg",
+          "https://nihonnleo.appspot.com/f/6/",
         src:
-          "http://127.0.0.1:4567/lin-test/public/FHkGOEj6SmyWlPSsS82KLNoCeWaygJsfHQcp83At.jpeg",
+          "https://nihonnleo.appspot.com/f/6/",
         caption: "4",
       },
       {
         thumb:
-          "https://i-thethao.vnecdn.net/2018/05/27/775162441-MR-2031-8E033EFCEBB928DC12A2A0AA3CEC4C33-21885-1527376486_680x0.jpg",
+          "https://nihonnleo.appspot.com/f/7/",
         src:
-          "https://i-thethao.vnecdn.net/2018/05/27/775162441-MR-2031-8E033EFCEBB928DC12A2A0AA3CEC4C33-21885-1527376486_680x0.jpg",
+          "https://nihonnleo.appspot.com/f/7/",
         caption: "5",
       },
       {
         thumb:
-          "https://i-thethao.vnecdn.net/2018/05/27/000-15E0DG-1527379049_680x0.jpg",
+          "https://nihonnleo.appspot.com/f/8/",
         src:
-          "https://i-thethao.vnecdn.net/2018/05/27/000-15E0DG-1527379049_680x0.jpg",
+          "https://nihonnleo.appspot.com/f/8/",
         caption: "6",
       },
       {
         thumb:
-          "https://i-thethao.vnecdn.net/2018/05/27/000-15D8R8-1527377973_680x0.jpg",
+          "https://nihonnleo.appspot.com/f/3/",
         src:
-          "https://i-thethao.vnecdn.net/2018/05/27/000-15D8R8-1527377973_680x0.jpg",
+          "https://nihonnleo.appspot.com/f/3/",
         caption: "7",
       },
       {
         thumb:
-          "https://s3-us-west-1.amazonaws.com/powr/defaults/image-slider2.jpg",
+          "https://nihonnleo.appspot.com/f/4/",
         src:
-          "https://s3-us-west-1.amazonaws.com/powr/defaults/image-slider2.jpg",
+          "https://nihonnleo.appspot.com/f/4/",
         caption: "8",
       },
       {
         thumb:
-          "https://i-kinhdoanh.vnecdn.net/2018/06/18/1-1529296929_680x0.jpg",
+          "https://nihonnleo.appspot.com/f/5/",
         src:
-          "https://i-kinhdoanh.vnecdn.net/2018/06/18/1-1529296929_680x0.jpg",
+          "https://nihonnleo.appspot.com/f/5/",
         caption: "9",
       },
       {
         thumb:
-          "http://127.0.0.1:4567/lin-test/public/5oQeGbjGqw2njkADPBl2FOx256X9NqiRkgY1AXNE.jpeg",
+          "https://nihonnleo.appspot.com/f/6/",
         src:
-          "http://127.0.0.1:4567/lin-test/public/FHkGOEj6SmyWlPSsS82KLNoCeWaygJsfHQcp83At.jpeg",
+          "https://nihonnleo.appspot.com/f/6/",
         caption: "10",
       },
       {
         thumb:
-          "https://i-thethao.vnecdn.net/2018/05/27/775162441-MR-2031-8E033EFCEBB928DC12A2A0AA3CEC4C33-21885-1527376486_680x0.jpg",
+          "https://nihonnleo.appspot.com/f/7/",
         src:
-          "https://i-thethao.vnecdn.net/2018/05/27/775162441-MR-2031-8E033EFCEBB928DC12A2A0AA3CEC4C33-21885-1527376486_680x0.jpg",
+          "https://nihonnleo.appspot.com/f/7/",
         caption: "11",
       },
       {
         thumb:
-          "https://i-thethao.vnecdn.net/2018/05/27/000-15E0DG-1527379049_680x0.jpg",
+          "https://nihonnleo.appspot.com/f/8/",
         src:
-          "https://i-thethao.vnecdn.net/2018/05/27/000-15E0DG-1527379049_680x0.jpg",
+          "https://nihonnleo.appspot.com/f/8/",
         caption: "12",
       },
     ];
