@@ -165,7 +165,7 @@
 </template>
 
 <script>
-import { defineComponent, reactive } from "vue";
+import { defineComponent, reactive, onBeforeUnmount } from "vue";
 
 export default defineComponent({
   name: "my-image-box",
@@ -194,6 +194,7 @@ export default defineComponent({
       state.selectedImgPath = path;
       state.selectedCaption = caption;
       state.show = true;
+      document.querySelector('body').addEventListener('keydown', (e) => keyboardKey(e))
     };
     const prev = () => {
       if (state.selectedIndex == 0) {
@@ -228,6 +229,16 @@ export default defineComponent({
       }
       touchState.startX = 0;
     }
+    const keyboardKey = (e) => {
+      if (e.keyCode === 37) {
+        prev()
+      } else if (e.keyCode === 39) {
+        next()
+      }
+    };
+    onBeforeUnmount(() => {
+      document.querySelector('body').removeEventListener('keydown', (e) => keyboardKey(e))
+    })
 
     return {
       state,
